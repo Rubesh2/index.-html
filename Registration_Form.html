@@ -1,0 +1,194 @@
+<html>
+<head>
+    <title>Registration Form</title>
+    <style>
+        body{
+            background-color:lightskyblue;
+
+        }
+        .title{
+            color:black;
+            font-size: 50px;
+            margin:0,auto;
+            color:rgb(7, 84, 156);
+        }
+        form {
+            width:500px;
+            margin:auto;
+            padding:40px;
+            color:black;
+            border-radius: 45px;
+            background-image: linear-gradient(cyan,yellow);
+        }
+
+        input[type=text]{
+            font-size: 18px;
+            padding:5px;
+            width:80%;
+            border:none;
+            border-radius:5px;
+        }
+
+        input[type=password]{
+            font-size: 18px;
+            padding:5px;
+            width:80%;
+            border:none;
+            border-radius:5px;
+        }
+
+        input[type=submit]{
+            font-size: 18px;
+            padding:10px;
+            border:none;
+            border-radius:7px;
+            background-color:white;
+            
+
+        }
+        input[type=submit]:hover{
+            background:rgb(29, 169, 235);
+            transition:0.5s;
+            color:white;
+        }
+
+        select[name=month]{
+            font-size: 15px;
+            padding:2px;
+            border:none;
+            border-radius:5px;
+        }
+        select[name=month]:hover{
+            background:rgb(29, 169, 235);
+            color:white;
+            transition:0.5s;
+
+        }
+        select[name=year]{
+            font-size: 15px;
+            padding:2px;
+            border:none;
+            border-radius:5px;
+        }
+        select[name=year]:hover{
+            background:rgb(29, 169, 235);
+            color:white;
+            transition:0.5s;
+
+        }
+        select[name=day]{
+            font-size: 15px;
+            padding:2px;
+            border:none;
+            border-radius:5px;
+        }
+        select[name=day]:hover{
+            background:rgb(29, 169, 235);
+            color:white;
+            transition:0.5s;
+
+        }
+
+        .userName{
+            font-size: 20px;
+        }
+        .email{
+            font-size: 20px;
+        }
+        .pass{
+            font-size: 20px;
+        }
+        .cpass{
+            font-size: 20px;
+        }
+        .gender{
+            font-size: 20px;
+        }
+        .dob{
+            font-size: 20px;
+        }
+
+      
+       
+            
+    </style>
+</head>
+<body>
+    <center>
+    <h1 class="title">Registration Form</h1>
+    </center>
+    <form>
+            <div class="userName">
+                Name: <br>
+                <input type="text" placeholder=" Name" name=""><br><br>
+            </div>
+            <div class="email">
+                Email: <br>
+                <input type="text" placeholder=" email" name=""><br><br>
+            </div>
+            <div class="pass">
+                Password: <br>
+                <input type="password" placeholder=" password" name=""><br><br>
+            </div>
+            <div class="cpass">
+                Confirm Password: <br>
+                <input type="password" placeholder="confirm password" name=""><br><br>
+            </div>
+            <div class="gender">
+                Gender: 
+                    <input type="radio" name="Gender">male
+                    <input type="radio" name="Gender">female<br><br>
+            </div>
+            <div class="dob">
+                Your Date of Birth: <br>
+                    <select name="month">
+                        <option value="month" >Month</option>
+                        <option value="january">january</option>
+                        <option value="february">february</option>
+                        <option value="march">march</option>
+                        <option value="april">april</option>
+                        <opiton value="may">may</opiton>
+                        <option value="june">june</option>
+                        <option value="july">july</option>
+                        <option value="august">august</option>
+                        <option value="september">september</option>
+                        <option value="october">october</option>
+                        <option value="november">november</option>
+                        <option value="december">december</option>
+                    </select>
+                
+                    <select name="day">
+                        <option value="day">Day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+
+                    <select name="year">
+                        <option value="year">Year</option>
+                        <option value="1991">1991</option>
+                        <option value="1992">1992</option>
+                        <option value="1993">1993</option>
+                        <option value="1994">1994</option>
+                        <option value="1995">1995</option>
+                        <option value="1996">1996</option>
+                        <option value="1997">1997</option>
+                        <option value="1998">1998</option>
+                        <option value="1999">1999</option>
+                        <option value="2000">2000</option>
+                    </select><br><br>
+                </div>
+                <div>
+                <input type="submit" value="submit">
+                </div>
+    </form>
+</body>
+
+</html>
